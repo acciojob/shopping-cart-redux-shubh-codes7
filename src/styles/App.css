@@ -1,1 +1,49 @@
 
+#card{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.cardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+}
+
+#cart{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+#cartContainer{
+    width: 60vw;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+#totalAmount{
+    width: 30%;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+
+.cartProduct{
+    display: block;
+}
+
